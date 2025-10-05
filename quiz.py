@@ -1,11 +1,12 @@
 import tkinter as tk
 import random
 import json
+import os
 
-# Load questions from questions.json
-with open(r"D:\siddhesh\questio.json", "r", encoding="utf-8") as f:
+
+file_path = os.path.join(os.path.dirname(__file__), "questio.json")
+with open(file_path, "r", encoding="utf-8") as f:
     questions = json.load(f)
-
 
 class QuizApp:
     def __init__(self, root):
