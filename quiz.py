@@ -5,7 +5,7 @@ import qrcode
 from io import BytesIO
 
 # --- Load questions ---
-with open("questions.json", "r", encoding="utf-8") as f:
+with open("questio.json", "r", encoding="utf-8") as f:
     questions = json.load(f)
 
 # --- Streamlit page setup ---
