@@ -1,64 +1,119 @@
-import streamlit as st
+import tkinter as tk
 import random
 import json
-import qrcode
-from io import BytesIO
 
-# --- Load questions ---
-with open("questio.json", "r", encoding="utf-8") as f:
+# Load questions from questions.json
+with open(r"D:\siddhesh\questio.json", "r", encoding="utf-8") as f:
     questions = json.load(f)
 
-# --- Streamlit page setup ---
-st.set_page_config(page_title="Python Quiz", page_icon="🎓", layout="centered")
-st.title("🎓 Python Quiz App")
-st.write("Scan the QR code below to open this quiz on any device!")
 
-# --- QR Code Generation ---
-# Replace with your deployed Streamlit URL after first deployment
-quiz_url = "https://your-quiz-app.streamlit.app"
-qr = qrcode.QRCode(box_size=6, border=2)
-qr.add_data(quiz_url)
-qr.make(fit=True)
-img = qr.make_image(fill_color="black", back_color="white")
-buf = BytesIO()
-img.save(buf)
-st.image(buf, use_container_width=True)
+class QuizApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("🎓 Python Quiz App")
+        self.root.geometry("700x500")
+        self.root.config(bg="#f0f0f0")
 
-st.write("---")
+        self.score = 0
+        self.current_question = 0
 
-# --- Initialize session state ---
-if "score" not in st.session_state:
-    st.session_state.score = 0
-if "current_question" not in st.session_state:
-    st.session_state.current_question = 0
-if "selected_questions" not in st.session_state:
-    st.session_state.selected_questions = random.sample(questions, 5)
+        # Title
+        self.title_label = tk.Label(
+            root, text="Python Quiz", font=("Comic Sans MS", 24, "bold"), bg="#4caf50", fg="white", pady=10
+        )
+        self.title_label.pack(fill="x")
 
-# --- Show question ---
-def show_question():
-    q = st.session_state.selected_questions[st.session_state.current_question]
-    st.subheader(f"Q{st.session_state.current_question + 1}: {q['question']}")
-    choice = st.radio("Select your answer:", q["options"], key=st.session_state.current_question)
+        # Frame for question
+        self.q_frame = tk.Frame(root, bg="#f0f0f0", padx=20, pady=20)
+        self.q_frame.pack(pady=20, fill="x")
 
-    if st.button("Submit", key=f"submit_{st.session_state.current_question}"):
-        if choice == q["answer"]:
-            st.success("✅ Correct!")
-            st.session_state.score += 1
+        self.question_label = tk.Label(
+            self.q_frame, text="", font=("Arial", 16), wraplength=650, justify="left", bg="#f0f0f0"
+        )
+        self.question_label.pack()
+
+        # Frame for options
+        self.options_frame = tk.Frame(root, bg="#f0f0f0")
+        self.options_frame.pack(pady=10)
+
+        self.option_buttons = []
+        for i in range(4):
+            btn = tk.Button(
+                self.options_frame,
+                text="",
+                width=50,
+                font=("Arial", 14),
+                bg="white",
+                fg="#333",
+                relief="raised",
+                bd=2,
+                activebackground="#4caf50",
+                activeforeground="white",
+                command=lambda i=i: self.check_answer(i)
+            )
+            btn.pack(pady=8)
+            btn.bind("<Enter>", lambda e, b=btn: b.config(bg="#d4edda"))  # Hover effect
+            btn.bind("<Leave>", lambda e, b=btn: b.config(bg="white"))
+            self.option_buttons.append(btn)
+
+        # Result label
+        self.result_label = tk.Label(root, text="", font=("Arial", 14), bg="#f0f0f0")
+        self.result_label.pack(pady=10)
+
+        # Reset button
+        self.reset_button = tk.Button(
+            root, text="🔁 New Quiz", font=("Arial", 14), bg="#2196f3", fg="white", activebackground="#1976d2",
+            activeforeground="white", command=self.reset_quiz
+        )
+        self.reset_button.pack(pady=20)
+
+        # Load first set
+        self.load_new_set()
+
+    def load_new_set(self):
+        self.score = 0
+        self.current_question = 0
+        self.result_label.config(text="")
+        self.selected_questions = random.sample(questions, 5)
+        self.show_question()
+
+    def show_question(self):
+        q = self.selected_questions[self.current_question]
+        self.question_label.config(text=f"Q{self.current_question + 1}: {q['question']}")
+        for i in range(4):
+            self.option_buttons[i].config(text=q["options"][i], state="normal")
+        self.result_label.config(text="")
+
+    def check_answer(self, i):
+        q = self.selected_questions[self.current_question]
+        selected = q["options"][i]
+        if selected == q["answer"]:
+            self.result_label.config(text="✅ Correct!", fg="green")
+            self.score += 1
         else:
-            st.error(f"❌ Wrong! Correct answer: {q['answer']}")
+            self.result_label.config(text=f"❌ Wrong! Correct: {q['answer']}", fg="red")
 
-        st.session_state.current_question += 1
-        st.experimental_rerun()
+        for btn in self.option_buttons:
+            btn.config(state="disabled")
 
-# --- Quiz logic ---
-if st.session_state.current_question < len(st.session_state.selected_questions):
-    show_question()
-    progress = st.session_state.current_question / len(st.session_state.selected_questions)
-    st.progress(progress)
-else:
-    st.subheader(f"🎉 Quiz Finished! Your Score: {st.session_state.score}/{len(st.session_state.selected_questions)}")
-    if st.button("🔁 Restart Quiz"):
-        st.session_state.score = 0
-        st.session_state.current_question = 0
-        st.session_state.selected_questions = random.sample(questions, 5)
-        st.experimental_rerun()
+        self.root.after(1500, self.next_question)
+
+    def next_question(self):
+        self.current_question += 1
+        if self.current_question < len(self.selected_questions):
+            self.show_question()
+        else:
+            self.question_label.config(
+                text=f"🎉 Quiz Finished! Your Score: {self.score}/{len(self.selected_questions)}"
+            )
+            for btn in self.option_buttons:
+                btn.config(state="disabled")
+
+    def reset_quiz(self):
+        self.load_new_set()
+
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = QuizApp(root)
+    root.mainloop()
