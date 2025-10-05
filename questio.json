@@ -1,0 +1,1242 @@
+[
+  {
+    "question": "What is 5 + 3?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "8"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Venus", "Mars", "Jupiter"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "Berlin", "London", "Rome"],
+    "answer": "Paris"
+  },
+  {
+    "question": "Who wrote ‘Romeo and Juliet’?",
+    "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+    "answer": "William Shakespeare"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": ["H2O", "O2", "CO2", "HO2"],
+    "answer": "H2O"
+  },
+  {
+    "question": "Which animal is known as the King of the Jungle?",
+    "options": ["Elephant", "Lion", "Tiger", "Cheetah"],
+    "answer": "Lion"
+  },
+  {
+    "question": "What is 9 × 7?",
+    "options": ["56", "63", "72", "64"],
+    "answer": "63"
+  },
+  {
+    "question": "Which is the largest planet in our solar system?",
+    "options": ["Earth", "Saturn", "Jupiter", "Neptune"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"],
+    "answer": "George Washington"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "options": ["Seoul", "Beijing", "Tokyo", "Kyoto"],
+    "answer": "Tokyo"
+  },
+  {
+    "question": "What is 12 × 12?",
+    "options": ["144", "122", "132", "154"],
+    "answer": "144"
+  },
+  {
+    "question": "Which ocean is the largest?",
+    "options": ["Indian", "Atlantic", "Arctic", "Pacific"],
+    "answer": "Pacific"
+  },
+  {
+    "question": "What gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "question": "How many continents are there?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "question": "What is 15 ÷ 3?",
+    "options": ["4", "5", "6", "3"],
+    "answer": "5"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Vincent van Gogh"],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Iron", "Mercury", "Gold", "Silver"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "What is the capital of India?",
+    "options": ["Delhi", "Mumbai", "Kolkata", "Chennai"],
+    "answer": "Delhi"
+  },
+  {
+    "question": "Which planet has rings?",
+    "options": ["Earth", "Saturn", "Venus", "Mars"],
+    "answer": "Saturn"
+  },
+  {
+    "question": "What is 100 ÷ 10?",
+    "options": ["5", "10", "20", "15"],
+    "answer": "10"
+  },
+  {
+    "question": "Which is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "2"
+  },
+  {
+    "question": "In which country is the Eiffel Tower?",
+    "options": ["France", "Italy", "Spain", "Germany"],
+    "answer": "France"
+  },
+  {
+    "question": "Which organ pumps blood in the human body?",
+    "options": ["Lungs", "Brain", "Heart", "Kidney"],
+    "answer": "Heart"
+  },
+  {
+    "question": "What is the square root of 81?",
+    "options": ["8", "9", "10", "7"],
+    "answer": "9"
+  },
+  {
+    "question": "Who discovered gravity?",
+    "options": ["Albert Einstein", "Isaac Newton", "Galileo", "Thomas Edison"],
+    "answer": "Isaac Newton"
+  },
+  {
+    "question": "Which is the largest mammal?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    "answer": "Blue Whale"
+  },
+  {
+    "question": "What is the boiling point of water?",
+    "options": ["0°C", "50°C", "100°C", "200°C"],
+    "answer": "100°C"
+  },
+  {
+    "question": "Which continent is known as the Dark Continent?",
+    "options": ["Asia", "Africa", "Europe", "Australia"],
+    "answer": "Africa"
+  },
+  {
+    "question": "Which is the fastest land animal?",
+    "options": ["Cheetah", "Lion", "Horse", "Tiger"],
+    "answer": "Cheetah"
+  },
+  {
+    "question": "Which goddess is worshipped during Navaratri?",
+    "options": ["Saraswati", "Lakshmi", "Durga", "Parvati"],
+    "answer": "Durga"
+  },
+  {
+    "question": "Navaratri is celebrated for how many days?",
+    "options": ["7", "9", "10", "11"],
+    "answer": "9"
+  },
+  {
+    "question": "Which is the national flower of India?",
+    "options": ["Rose", "Lotus", "Marigold", "Jasmine"],
+    "answer": "Lotus"
+  },
+  {
+    "question": "Which of the following is used to define a function in Python?",
+    "options": ["function", "define", "def", "func"],
+    "answer": "def"
+  },
+  {
+    "question": "What will be the output of print(2 ** 3)?",
+    "options": ["6", "8", "9", "Error"],
+    "answer": "8"
+  },
+  {
+    "question": "Which data structure uses First In First Out (FIFO)?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue"
+  },
+  {
+    "question": "Which keyword is used to loop over a sequence in Python?",
+    "options": ["loop", "iterate", "for", "while"],
+    "answer": "for"
+  },
+  {
+    "question": "What is the output of: print('Hello' + 'World')?",
+    "options": ["HelloWorld", "Hello World", "Hello+World", "Error"],
+    "answer": "HelloWorld"
+  },
+  {
+    "question": "Which symbol is used to start a comment in Python?",
+    "options": ["//", "/*", "#", "--"],
+    "answer": "#"
+  },
+  {
+    "question": "Which function is used to get input from a user in Python?",
+    "options": ["get()", "input()", "scan()", "read()"],
+    "answer": "input()"
+  },
+  {
+    "question": "What is the correct way to create a list in Python?",
+    "options": ["{1,2,3}", "(1,2,3)", "[1,2,3]", "<1,2,3>"],
+    "answer": "[1,2,3]"
+  },
+  {
+    "question": "Which operator is used for equality comparison in Python?",
+    "options": ["=", "==", "===", "!="],
+    "answer": "=="
+  },
+  {
+    "question": "Which of the following is a mutable data type in Python?",
+    "options": ["tuple", "list", "string", "int"],
+    "answer": "list"
+  },
+  {
+    "question": "What will be the output of print(type([]))?",
+    "options": ["<class 'list'>", "<class 'tuple'>", "<class 'dict'>", "<class 'set'>"],
+    "answer": "<class 'list'>"
+  },
+  {
+    "question": "Which keyword is used to handle exceptions in Python?",
+    "options": ["try", "catch", "handle", "except"],
+    "answer": "except"
+  },
+  {
+    "question": "What is the output of print(10 // 3)?",
+    "options": ["3.33", "3", "4", "Error"],
+    "answer": "3"
+  },
+  {
+    "question": "Which of these is a correct syntax to import a module?",
+    "options": ["import[math]", "use math", "import math", "include math"],
+    "answer": "import math"
+  },
+  {
+    "question": "What is the time complexity of binary search?",
+    "options": ["O(n)", "O(n log n)", "O(log n)", "O(1)"],
+    "answer": "O(log n)"
+  },
+  {
+    "question": "What is a correct example of a tuple in Python?",
+    "options": ["[1, 2, 3]", "{1, 2, 3}", "(1, 2, 3)", "<1, 2, 3>"],
+    "answer": "(1, 2, 3)"
+  },
+  {
+    "question": "Which of these data types is unordered?",
+    "options": ["List", "Tuple", "Set", "String"],
+    "answer": "Set"
+  },
+  {
+    "question": "What does the len() function do?",
+    "options": ["Adds two numbers", "Counts characters", "Returns length", "Finds index"],
+    "answer": "Returns length"
+  },
+  {
+    "question": "What is the output of: print(bool(0))?",
+    "options": ["True", "False", "0", "Error"],
+    "answer": "False"
+  },
+  {
+    "question": "Which data structure uses LIFO (Last In First Out)?",
+    "options": ["Queue", "Stack", "Tree", "Array"],
+    "answer": "Stack"
+  },
+  {
+    "question": "Which statement is used to exit a loop in Python?",
+    "options": ["stop", "exit", "end", "break"],
+    "answer": "break"
+  },
+  {
+    "question": "Which function is used to find the maximum value in a list?",
+    "options": ["maximum()", "max()", "largest()", "high()"],
+    "answer": "max()"
+  },
+  {
+    "question": "What is the correct file extension for Python files?",
+    "options": [".pt", ".pyt", ".py", ".python"],
+    "answer": ".py"
+  },
+  {
+    "question": "Which of the following is NOT a Python keyword?",
+    "options": ["pass", "eval", "assert", "repeat"],
+    "answer": "repeat"
+  },
+  {
+    "question": "What is recursion?",
+    "options": [
+      "A function calling itself",
+      "Repeating a loop",
+      "A type of variable",
+      "A syntax error"
+    ],
+    "answer": "A function calling itself"
+  },
+  {
+    "question": "What is the output of print(3 * 'Hi')?",
+    "options": ["HiHiHi", "Hi3", "Error", "3Hi"],
+    "answer": "HiHiHi"
+  },
+  {
+    "question": "Which sorting algorithm has the best average case time complexity?",
+    "options": ["Bubble Sort", "Quick Sort", "Selection Sort", "Insertion Sort"],
+    "answer": "Quick Sort"
+  },
+  {
+    "question": "What does IDE stand for?",
+    "options": [
+      "Integrated Development Environment",
+      "Interactive Design Engine",
+      "Internal Debug Executor",
+      "Input Data Evaluator"
+    ],
+    "answer": "Integrated Development Environment"
+  },
+  {
+    "question": "What is the main purpose of a return statement in a function?",
+    "options": [
+      "To print output",
+      "To exit the function",
+      "To return a value to the caller",
+      "To stop the program"
+    ],
+    "answer": "To return a value to the caller"
+  },
+  {
+    "question": "Which of the following is true about Python?",
+    "options": [
+      "It is statically typed",
+      "It is compiled",
+      "It is dynamically typed",
+      "It does not support OOP"
+    ],
+    "answer": "It is dynamically typed"
+  },
+  {
+    "question": "What is the output of print(2 == 2.0)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which method is automatically called when an object is created in Python?",
+    "options": ["__create__", "__new__", "__init__", "__start__"],
+    "answer": "__init__"
+  },
+  {
+    "question": "Which of these defines inheritance correctly?",
+    "options": [
+      "Acquiring properties of another class",
+      "Overloading methods",
+      "Defining static methods",
+      "Encapsulating data"
+    ],
+    "answer": "Acquiring properties of another class"
+  },
+  {
+    "question": "What is the output of: print('Hello {0}'.format('World'))?",
+    "options": ["Hello 0", "Hello {0}", "Hello World", "Error"],
+    "answer": "Hello World"
+  },
+  {
+    "question": "What does the pop() method do for a list?",
+    "options": ["Removes and returns last item", "Adds element", "Removes first item", "Clears list"],
+    "answer": "Removes and returns last item"
+  },
+  {
+    "question": "Which of the following can be used to iterate through both keys and values of a dictionary?",
+    "options": ["for k, v in dict", "dict.items()", "dict.keys()", "dict.values()"],
+    "answer": "dict.items()"
+  },
+  {
+    "question": "Which of the following is used to define an anonymous function?",
+    "options": ["lambda", "def", "func", "anon"],
+    "answer": "lambda"
+  },
+  {
+    "question": "Which algorithm is used to find the shortest path in a graph?",
+    "options": ["Dijkstra’s Algorithm", "Merge Sort", "DFS", "BFS"],
+    "answer": "Dijkstra’s Algorithm"
+  },
+  {
+    "question": "Which Python module is used for regular expressions?",
+    "options": ["regex", "match", "re", "pattern"],
+    "answer": "re"
+  },
+  {
+    "question": "Which method converts a string into lowercase?",
+    "options": ["lowercase()", "toLower()", "lower()", "convertLower()"],
+    "answer": "lower()"
+  },
+  {
+    "question": "What is the purpose of 'self' in a Python class?",
+    "options": [
+      "It refers to the current object instance",
+      "It defines a static variable",
+      "It refers to the parent class",
+      "It stores global variables"
+    ],
+    "answer": "It refers to the current object instance"
+  },
+  {
+    "question": "What is the output of print([x for x in range(3)])?",
+    "options": ["[1, 2, 3]", "[0, 1, 2]", "[0, 1, 2, 3]", "Error"],
+    "answer": "[0, 1, 2]"
+  },
+  {
+    "question": "Which of the following is used to check memory usage in Python?",
+    "options": ["sys", "memory", "psutil", "os"],
+    "answer": "psutil"
+  },
+  {
+    "question": "What will be the output of: print(bool('False'))?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following best describes encapsulation?",
+    "options": [
+      "Wrapping data and methods together",
+      "Inheritance between classes",
+      "Defining abstract classes",
+      "Using decorators"
+    ],
+    "answer": "Wrapping data and methods together"
+  },
+  {
+    "question": "Which of the following statements is true about Python lists?",
+    "options": [
+      "Lists are immutable",
+      "Lists are ordered and mutable",
+      "Lists store only numbers",
+      "Lists are unordered"
+    ],
+    "answer": "Lists are ordered and mutable"
+  },
+  {
+    "question": "Which sorting algorithm has worst-case O(n²) time complexity?",
+    "options": ["Merge Sort", "Quick Sort", "Bubble Sort", "Heap Sort"],
+    "answer": "Bubble Sort"
+  },
+  {
+    "question": "Which keyword is used to define an abstract class in Python?",
+    "options": ["abstract", "ABC", "abstractclass", "interface"],
+    "answer": "ABC"
+  },
+  {
+    "question": "What is the output of len(set([1,2,2,3,3,3]))?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "3"
+  },
+  {
+    "question": "Which of these is a valid Python variable name?",
+    "options": ["2name", "first_name", "class", "my-var"],
+    "answer": "first_name"
+  },
+  {
+    "question": "Which of these is the correct way to open a file for reading in Python?",
+    "options": ["open('file.txt', 'r')", "open('file.txt', 'read')", "open('file.txt', 'w')", "open('file.txt', 'rw')"],
+    "answer": "open('file.txt', 'r')"
+  },
+  {
+    "question": "What is the result of 7 % 3 in Python?",
+    "options": ["1", "2", "3", "0"],
+    "answer": "1"
+  },
+  {
+    "question": "Which of these is a Python tuple?",
+    "options": ["[1, 2, 3]", "(1, 2, 3)", "{1, 2, 3}", "1, 2, 3"],
+    "answer": "(1, 2, 3)"
+  },
+  {
+    "question": "What is the output of print(‘a’ * 3)?",
+    "options": ["aaa", "3a", "a3", "Error"],
+    "answer": "aaa"
+  },
+  {
+    "question": "Which method adds an element at the end of a list?",
+    "options": ["append()", "add()", "insert()", "push()"],
+    "answer": "append()"
+  },
+  {
+    "question": "Which of the following is not a Python built-in datatype?",
+    "options": ["list", "set", "map", "tuple"],
+    "answer": "map"
+  },
+  {
+    "question": "What is a lambda function?",
+    "options": ["A function without a name", "A class method", "A built-in function", "A static method"],
+    "answer": "A function without a name"
+  },
+  {
+    "question": "Which is the correct way to enforce indentation in Python?",
+    "options": ["curly braces", "indentation", "parentheses", "semicolons"],
+    "answer": "indentation"
+  },
+  {
+    "question": "Which keyword is used to inherit a class in Python?",
+    "options": ["extends", "implements", "inherits", "nothing keyword — just parentheses"],
+    "answer": "nothing keyword — just parentheses"
+  },
+  {
+    "question": "What is recursion?",
+    "options": ["Function calling itself", "A loop inside a loop", "A conditional statement", "Error handling"],
+    "answer": "Function calling itself"
+  },
+  {
+    "question": "Which data structure uses LIFO?",
+    "options": ["Queue", "Stack", "Tree", "Graph"],
+    "answer": "Stack"
+  },
+  {
+    "question": "Which data structure uses FIFO?",
+    "options": ["Queue", "Stack", "Heap", "Graph"],
+    "answer": "Queue"
+  },
+  {
+    "question": "What is the time complexity of linear search?",
+    "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+    "answer": "O(n)"
+  },
+  {
+    "question": "What is the time complexity of binary search (on sorted array)?",
+    "options": ["O(n)", "O(n log n)", "O(log n)", "O(1)"],
+    "answer": "O(log n)"
+  },
+  {
+    "question": "Which of the following sorting algorithms is best for nearly-sorted arrays?",
+    "options": ["Bubble Sort", "Insertion Sort", "Selection Sort", "Merge Sort"],
+    "answer": "Insertion Sort"
+  },
+  {
+    "question": "What is the worst-case time complexity of Quick Sort?",
+    "options": ["O(n log n)", "O(n^2)", "O(n)", "O(1)"],
+    "answer": "O(n^2)"
+  },
+  {
+    "question": "Which algorithm divides the array into halves recursively?",
+    "options": ["Bubble Sort", "Merge Sort", "Selection Sort", "Insertion Sort"],
+    "answer": "Merge Sort"
+  },
+  {
+    "question": "What is a dictionary in Python?",
+    "options": ["A list of items", "An ordered list", "Key-value pairs", "A set of values"],
+    "answer": "Key-value pairs"
+  },
+  {
+    "question": "How do you get all keys from a dictionary d?",
+    "options": ["d.keys()", "keys(d)", "d.get_keys()", "d.all_keys()"],
+    "answer": "d.keys()"
+  },
+  {
+    "question": "What is the output of: print(sorted([3, 1, 2]))?",
+    "options": ["[1, 2, 3]", "[3, 2, 1]", "Error", "[1, 3, 2]"],
+    "answer": "[1, 2, 3]"
+  },
+  {
+    "question": "How do you start a comment in Python?",
+    "options": ["//", "#", "/*", "--"],
+    "answer": "#"
+  },
+  {
+    "question": "Which of these is mutable?",
+    "options": ["tuple", "string", "list", "int"],
+    "answer": "list"
+  },
+  {
+    "question": "Which of these is immutable?",
+    "options": ["list", "set", "tuple", "dict"],
+    "answer": "tuple"
+  },
+  {
+    "question": "Which built-in can you use to find the length of a list?",
+    "options": ["size()", "length()", "len()", "count()"],
+    "answer": "len()"
+  },
+  {
+    "question": "What is the output of: print(len('hello'))?",
+    "options": ["5", "4", "6", "Error"],
+    "answer": "5"
+  },
+  {
+    "question": "What is multithreading?",
+    "options": ["Multiple processes", "Single-threaded execution", "Multiple threads within a process", "None"],
+    "answer": "Multiple threads within a process"
+  },
+  {
+    "question": "Which of these is a Python module to work with dates and times?",
+    "options": ["time", "datetime", "schedule", "calendar"],
+    "answer": "datetime"
+  },
+  {
+    "question": "What is a generator in Python?",
+    "options": ["A function that returns all elements at once", "A class type", "A function that yields values one by one", "A module"],
+    "answer": "A function that yields values one by one"
+  },
+  {
+    "question": "How do you raise an exception in Python?",
+    "options": ["throw Exception()", "raise Exception()", "except Exception()", "raise error"],
+    "answer": "raise Exception()"
+  },
+  {
+    "question": "Which block is always executed after try/except regardless of error?",
+    "options": ["then", "finally", "always", "end"],
+    "answer": "finally"
+  },
+  {
+    "question": "Which operator is used for string concatenation in Python?",
+    "options": ["+", "&", "concat()", "*"], 
+    "answer": "+"
+  },
+  {
+    "question": "What is duck typing in programming?",
+    "options": [
+      "Type checking at compile time", 
+      "Behavior over inheritance", 
+      "Strict type enforcement", 
+      "None"
+    ],
+    "answer": "Behavior over inheritance"
+  },
+  {
+    "question": "Which of the following is true about Python’s pass statement?",
+    "options": ["It does nothing", "It raises an error", "It returns a value", "It breaks a loop"],
+    "answer": "It does nothing"
+  },
+  {
+    "question": "Which keyword is used to define a class in Python?",
+    "options": ["object", "class", "def", "struct"],
+    "answer": "class"
+  },
+  {
+    "question": "What is method overloading?",
+    "options": [
+      "Same method name, different parameters",
+      "Different method names, same parameters",
+      "Same method name, same parameters",
+      "None"
+    ],
+    "answer": "Same method name, different parameters"
+  },
+  {
+    "question": "What is method overriding?",
+    "options": [
+      "A subclass method with same name/parameters as parent", 
+      "A method with the same name but different return type",
+      "Changing the method signature", 
+      "None"
+    ],
+    "answer": "A subclass method with same name/parameters as parent"
+  },
+  {
+    "question": "Which of these is an example of abstraction?",
+    "options": ["Hiding implementation details", "Showing all code", "Exposing private data", "None"],
+    "answer": "Hiding implementation details"
+  },
+  {
+    "question": "What is encapsulation in OOP?",
+    "options": [
+      "Combining data and methods", 
+      "Method overloading", 
+      "Inheritance", 
+      "Polymorphism"
+    ],
+    "answer": "Combining data and methods"
+  },
+  {
+    "question": "Which of the following implements a priority queue in Python’s standard library?",
+    "options": ["heapq", "queue", "priority", "pq"],
+    "answer": "heapq"
+  },
+  {
+    "question": "Which data structure is used in function call recursion (for storing return addresses)?",
+    "options": ["Queue", "Heap", "Stack", "Tree"],
+    "answer": "Stack"
+  },
+  {
+    "question": "What is the output of: print(5 == 5.0)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "What is a set in Python?",
+    "options": ["Ordered collection", "Unordered, unique elements", "List of duplicates", "Dictionary"],
+    "answer": "Unordered, unique elements"
+  },
+  {
+    "question": "Which of these is used to merge two sorted lists efficiently?",
+    "options": ["Insertion", "Merge from merge sort", "Bubble", "Selection"],
+    "answer": "Merge from merge sort"
+  },
+  {
+    "question": "Which is true about Big-O notation?",
+    "options": ["It gives exact time", "It describes upper bound", "It describes lower bound only", "None of above"],
+    "answer": "It describes upper bound"
+  },
+  {
+    "question": "Which of these is a mutable mapping type in Python?",
+    "options": ["dict", "frozenset", "tuple", "str"],
+    "answer": "dict"
+  },
+  {
+    "question": "Which is true about Python’s “is” operator?",
+    "options": ["Compares values", "Compares identity", "Same as ==", "Assignment operator"],
+    "answer": "Compares identity"
+  },
+  {
+    "question": "Which built-in function transforms iterable into list?",
+    "options": ["list()", "tuple()", "set()", "dict()"],
+    "answer": "list()"
+  },
+  {
+    "question": "Which of these is not a Python built-in function?",
+    "options": ["map()", "filter()", "reduce()", "aggregate()"],
+    "answer": "aggregate()"
+  },
+  {
+    "question": "What is the output of print(3 > 2 and 2 > 1)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which Python keyword is used to check a condition?",
+    "options": ["if", "for", "while", "case"],
+    "answer": "if"
+  },
+  {
+    "question": "Which statement will skip the current iteration in a loop?",
+    "options": ["stop", "skip", "continue", "break"],
+    "answer": "continue"
+  },
+  {
+    "question": "Which operator is used to check if two values are not equal?",
+    "options": ["<>", "=/=", "!=", "!=="],
+    "answer": "!="
+  },
+  {
+    "question": "What does the range(5) function produce?",
+    "options": ["[0,1,2,3,4]", "[1,2,3,4,5]", "[0,1,2,3,4,5]", "None"],
+    "answer": "[0,1,2,3,4]"
+  },
+  {
+    "question": "Which method is used to remove an element by value from a list?",
+    "options": ["pop()", "delete()", "remove()", "discard()"],
+    "answer": "remove()"
+  },
+  {
+    "question": "Which function returns the absolute value of a number?",
+    "options": ["abs()", "fabs()", "absolute()", "value()"],
+    "answer": "abs()"
+  },
+  {
+    "question": "Which of the following is used to handle exceptions?",
+    "options": ["if-else", "try-except", "while", "raise-only"],
+    "answer": "try-except"
+  },
+  {
+    "question": "What is the output of print('Python'.lower())?",
+    "options": ["PYTHON", "python", "Python", "Error"],
+    "answer": "python"
+  },
+  {
+    "question": "Which function is used to get the type of an object?",
+    "options": ["object()", "typeof()", "type()", "class()"],
+    "answer": "type()"
+  },
+  {
+    "question": "What is the output of print(bool([]))?",
+    "options": ["True", "False", "[]", "Error"],
+    "answer": "False"
+  },
+  {
+    "question": "Which Python keyword defines a new module?",
+    "options": ["module", "def", "import", "None of the above"],
+    "answer": "None of the above"
+  },
+  {
+    "question": "What will be printed by print('5' + '6')?",
+    "options": ["11", "56", "Error", "None"],
+    "answer": "56"
+  },
+  {
+    "question": "Which symbol is used to represent exponentiation?",
+    "options": ["^", "**", "exp", "//"],
+    "answer": "**"
+  },
+  {
+    "question": "Which function returns the largest number in a list?",
+    "options": ["max()", "largest()", "big()", "top()"],
+    "answer": "max()"
+  },
+  {
+    "question": "What does the ord('A') function return?",
+    "options": ["A", "ASCII value of A", "Error", "None"],
+    "answer": "ASCII value of A"
+  },
+  {
+    "question": "Which data structure does Python use for key-value pairs?",
+    "options": ["List", "Set", "Tuple", "Dictionary"],
+    "answer": "Dictionary"
+  },
+  {
+    "question": "Which of these keywords is used to create a generator?",
+    "options": ["yield", "return", "generate", "def"],
+    "answer": "yield"
+  },
+  {
+    "question": "Which method adds multiple elements to a list?",
+    "options": ["append()", "extend()", "insert()", "add()"],
+    "answer": "extend()"
+  },
+  {
+    "question": "What is a correct example of a Python set?",
+    "options": ["{1, 2, 3}", "[1, 2, 3]", "(1, 2, 3)", "{[1,2,3]}"],
+    "answer": "{1, 2, 3}"
+  },
+  {
+    "question": "What is the output of len('ChatGPT')?",
+    "options": ["6", "7", "8", "Error"],
+    "answer": "7"
+  },
+  {
+    "question": "What is the output of: print(10 != 10)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "What is the output of print(4 ** 0)?",
+    "options": ["1", "0", "4", "Error"],
+    "answer": "1"
+  },
+  {
+    "question": "Which of these is a valid Python identifier?",
+    "options": ["9abc", "_var", "for", "my-var"],
+    "answer": "_var"
+  },
+  {
+    "question": "Which operator is used for logical OR in Python?",
+    "options": ["||", "or", "OR", "&&"],
+    "answer": "or"
+  },
+  {
+    "question": "Which keyword is used to create a function?",
+    "options": ["func", "define", "def", "lambda"],
+    "answer": "def"
+  },
+  {
+    "question": "What does '==' check in Python?",
+    "options": ["Value equality", "Object identity", "Assignment", "None"],
+    "answer": "Value equality"
+  },
+  {
+    "question": "What does 'is' check in Python?",
+    "options": ["Value equality", "Object identity", "Assignment", "None"],
+    "answer": "Object identity"
+  },
+  {
+    "question": "Which of these can be used as dictionary keys?",
+    "options": ["List", "Set", "Tuple", "Dictionary"],
+    "answer": "Tuple"
+  },
+  {
+    "question": "Which function can convert a string to an integer?",
+    "options": ["str()", "toInt()", "int()", "convert()"],
+    "answer": "int()"
+  },
+  {
+    "question": "What is the output of print(10/4)?",
+    "options": ["2.5", "2", "2.0", "3"],
+    "answer": "2.5"
+  },
+  {
+    "question": "What is the output of print(10//4)?",
+    "options": ["2", "2.5", "3", "Error"],
+    "answer": "2"
+  },
+  {
+    "question": "Which keyword is used to import a module?",
+    "options": ["use", "import", "include", "require"],
+    "answer": "import"
+  },
+  {
+    "question": "Which keyword is used to define a class?",
+    "options": ["object", "define", "class", "def"],
+    "answer": "class"
+  },
+  {
+    "question": "What is the output of print(0 and 5)?",
+    "options": ["0", "5", "True", "False"],
+    "answer": "0"
+  },
+  {
+    "question": "What is the output of print(5 and 0)?",
+    "options": ["0", "5", "True", "False"],
+    "answer": "0"
+  },
+  {
+    "question": "What is the output of print(0 or 5)?",
+    "options": ["0", "5", "True", "False"],
+    "answer": "5"
+  },
+  {
+    "question": "Which method removes and returns the last list element?",
+    "options": ["pop()", "remove()", "delete()", "discard()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "Which function is used to find the smallest number?",
+    "options": ["min()", "minimum()", "least()", "low()"],
+    "answer": "min()"
+  },
+  {
+    "question": "Which function can reverse a list?",
+    "options": ["reverse()", "reversed()", "invert()", "flip()"],
+    "answer": "reversed()"
+  },
+  {
+    "question": "Which of the following is not a keyword in Python?",
+    "options": ["try", "assert", "repeat", "raise"],
+    "answer": "repeat"
+  },
+  {
+    "question": "Which function gives you a list of attributes and methods of an object?",
+    "options": ["help()", "dir()", "list()", "attr()"],
+    "answer": "dir()"
+  },
+  {
+    "question": "Which function prints output to the console?",
+    "options": ["show()", "display()", "print()", "echo()"],
+    "answer": "print()"
+  },
+  {
+    "question": "What does the zip() function do?",
+    "options": [
+      "Combines iterables element-wise",
+      "Compresses data",
+      "Sorts two lists",
+      "Joins strings"
+    ],
+    "answer": "Combines iterables element-wise"
+  },
+  {
+    "question": "What will be the output of print('abc'.upper())?",
+    "options": ["ABC", "abc", "Abc", "Error"],
+    "answer": "ABC"
+  },
+  {
+    "question": "What does str() do in Python?",
+    "options": ["Converts to integer", "Converts to string", "Converts to list", "Converts to float"],
+    "answer": "Converts to string"
+  },
+  {
+    "question": "What is the output of print(2 ** 5)?",
+    "options": ["10", "32", "25", "16"],
+    "answer": "32"
+  },
+  {
+    "question": "What does the 'break' keyword do?",
+    "options": ["Ends loop immediately", "Skips one iteration", "Ends program", "Raises error"],
+    "answer": "Ends loop immediately"
+  },
+  {
+    "question": "What is the output of len({1,2,2,3})?",
+    "options": ["4", "3", "2", "1"],
+    "answer": "3"
+  },
+  {
+    "question": "What does enumerate() do?",
+    "options": [
+      "Adds index to iterable",
+      "Sorts items",
+      "Counts elements",
+      "Removes duplicates"
+    ],
+    "answer": "Adds index to iterable"
+  },
+  {
+    "question": "Which data type can store multiple types of elements?",
+    "options": ["List", "String", "Integer", "Boolean"],
+    "answer": "List"
+  },
+  {
+    "question": "Which function converts iterable into a tuple?",
+    "options": ["tuple()", "list()", "set()", "dict()"],
+    "answer": "tuple()"
+  },
+  {
+    "question": "Which of the following data types is immutable in Python?",
+    "options": ["List", "Dictionary", "Tuple", "Set"],
+    "answer": "Tuple"
+  },
+  {
+    "question": "Which keyword is used to define a subclass in Python?",
+    "options": ["inherits", "extends", "class", "super"],
+    "answer": "class"
+  },
+  {
+    "question": "What is the output of print(type([]))?",
+    "options": ["list", "<class 'list'>", "[]", "object"],
+    "answer": "<class 'list'>"
+  },
+  {
+    "question": "Which method returns the number of occurrences of a value in a list?",
+    "options": ["count()", "index()", "find()", "len()"],
+    "answer": "count()"
+  },
+  {
+    "question": "Which of these functions creates an iterator?",
+    "options": ["iter()", "next()", "iterator()", "loop()"],
+    "answer": "iter()"
+  },
+  {
+    "question": "What is the default start value for range(5)?",
+    "options": ["0", "1", "None", "Error"],
+    "answer": "0"
+  },
+  {
+    "question": "Which keyword is used to exit from a function?",
+    "options": ["exit", "stop", "return", "break"],
+    "answer": "return"
+  },
+  {
+    "question": "Which Python keyword is used for inheritance?",
+    "options": ["inherits", "extends", "super", "class"],
+    "answer": "class"
+  },
+  {
+    "question": "Which data structure is best for LIFO operations?",
+    "options": ["Queue", "Stack", "List", "Set"],
+    "answer": "Stack"
+  },
+  {
+    "question": "Which function is used to check the length of a list?",
+    "options": ["count()", "size()", "len()", "length()"],
+    "answer": "len()"
+  },
+  {
+    "question": "Which keyword is used to handle multiple exceptions?",
+    "options": ["try", "finally", "except", "elif"],
+    "answer": "except"
+  },
+  {
+    "question": "What is the output of print(5 in [1,2,3,5])?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "Which module is used for regular expressions in Python?",
+    "options": ["regex", "re", "pattern", "match"],
+    "answer": "re"
+  },
+  {
+    "question": "Which Python function converts a list to a set?",
+    "options": ["set()", "convert()", "make_set()", "toSet()"],
+    "answer": "set()"
+  },
+  {
+    "question": "What is the output of print(bool(0))?",
+    "options": ["True", "False", "0", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which keyword defines an anonymous function?",
+    "options": ["lambda", "def", "function", "anonymous"],
+    "answer": "lambda"
+  },
+  {
+    "question": "What is the output of print(10 % 3)?",
+    "options": ["1", "3", "0", "2"],
+    "answer": "1"
+  },
+  {
+    "question": "Which data structure uses key-value pairs?",
+    "options": ["List", "Tuple", "Set", "Dictionary"],
+    "answer": "Dictionary"
+  },
+  {
+    "question": "Which function finds the maximum value from a list?",
+    "options": ["max()", "top()", "biggest()", "maxvalue()"],
+    "answer": "max()"
+  },
+  {
+    "question": "Which operator is used for floor division?",
+    "options": ["/", "//", "%", "**"],
+    "answer": "//"
+  },
+  {
+    "question": "What is the result of 5 == 5.0?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "What is the output of print(5 != 4)?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "question": "What will be the output of print(2*3**2)?",
+    "options": ["36", "18", "12", "9"],
+    "answer": "18"
+  },
+  {
+    "question": "Which of these is not a core data type?",
+    "options": ["List", "Tuple", "Class", "Dictionary"],
+    "answer": "Class"
+  },
+  {
+    "question": "What is the output of print(2 == '2')?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "False"
+  },
+  {
+    "question": "Which function sorts a list in Python?",
+    "options": ["sort()", "sorted()", "order()", "arrange()"],
+    "answer": "sorted()"
+  },
+  {
+    "question": "Which method is used to find the index of an element?",
+    "options": ["find()", "locate()", "index()", "position()"],
+    "answer": "index()"
+  },
+  {
+    "question": "What will be printed by print(len({1: 'a', 2: 'b'}))?",
+    "options": ["1", "2", "3", "Error"],
+    "answer": "2"
+  },
+  {
+    "question": "Which keyword is used to prevent inheritance?",
+    "options": ["final", "sealed", "None", "private"],
+    "answer": "None"
+  },
+  {
+    "question": "Which keyword creates a virtual environment?",
+    "options": ["venv", "virtualenv", "create", "None"],
+    "answer": "venv"
+  },
+  {
+    "question": "Which symbol is used for comments in Python?",
+    "options": ["//", "#", "/* */", "<!-- -->"],
+    "answer": "#"
+  },
+  {
+    "question": "What does isinstance(obj, class) check?",
+    "options": [
+      "If object is instance of class",
+      "If object name is class",
+      "If class is parent of object",
+      "None"
+    ],
+    "answer": "If object is instance of class"
+  },
+  {
+    "question": "Which function converts a number to string?",
+    "options": ["str()", "int()", "float()", "chr()"],
+    "answer": "str()"
+  },
+  {
+    "question": "Which keyword is used to raise an exception?",
+    "options": ["raise", "throw", "error", "try"],
+    "answer": "raise"
+  },
+  {
+    "question": "What does continue do in a loop?",
+    "options": ["Stops loop", "Skips current iteration", "Exits loop", "Restarts program"],
+    "answer": "Skips current iteration"
+  },
+  {
+    "question": "Which built-in function returns the sum of elements?",
+    "options": ["sum()", "add()", "plus()", "combine()"],
+    "answer": "sum()"
+  },
+  {
+    "question": "Which method removes all elements from a list?",
+    "options": ["delete()", "clear()", "removeAll()", "reset()"],
+    "answer": "clear()"
+  },
+  {
+    "question": "Which Python statement defines a constant?",
+    "options": ["const", "define", "None", "final"],
+    "answer": "None"
+  },
+  {
+    "question": "What is the output of print('A' * 3)?",
+    "options": ["AAA", "A3", "Error", "3A"],
+    "answer": "AAA"
+  },
+  {
+    "question": "Which keyword is used to import only a part of a module?",
+    "options": ["from", "import", "as", "with"],
+    "answer": "from"
+  },
+  {
+    "question": "What is the output of print(10 % 2)?",
+    "options": ["1", "2", "0", "Error"],
+    "answer": "0"
+  },
+  {
+    "question": "Which method returns a list copy?",
+    "options": ["copy()", "clone()", "duplicate()", "replica()"],
+    "answer": "copy()"
+  },
+  {
+    "question": "Which Python type is unhashable?",
+    "options": ["List", "Tuple", "Set", "String"],
+    "answer": "List"
+  },
+  {
+    "question": "Which keyword is used to define an interface?",
+    "options": ["interface", "abstract", "None", "protocol"],
+    "answer": "None"
+  },
+  {
+    "question": "Which method adds one element at the end of a list?",
+    "options": ["append()", "extend()", "insert()", "add()"],
+    "answer": "append()"
+  },
+  {
+    "question": "Which method converts a string to lowercase?",
+    "options": ["lower()", "down()", "case()", "small()"],
+    "answer": "lower()"
+  },
+  {
+    "question": "Which keyword is used for inheritance in Java?",
+    "options": ["extends", "inherits", "super", "base"],
+    "answer": "extends"
+  },
+  {
+    "question": "Which sorting algorithm has best average case O(n log n)?",
+    "options": ["Bubble sort", "Quick sort", "Selection sort", "Insertion sort"],
+    "answer": "Quick sort"
+  },
+  {
+    "question": "Which data structure uses FIFO order?",
+    "options": ["Stack", "Queue", "Tree", "Set"],
+    "answer": "Queue"
+  },
+  {
+    "question": "Which function in Python is used to read input from user?",
+    "options": ["scan()", "get()", "input()", "read()"],
+    "answer": "input()"
+  },
+  {
+    "question": "Which keyword is used to create a new object in Java?",
+    "options": ["create", "new", "object", "init"],
+    "answer": "new"
+  }
+]
