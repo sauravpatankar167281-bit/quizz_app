@@ -15,7 +15,7 @@ st.set_page_config(page_title="Python Quiz", page_icon="🎓")
 st.title("🎓 Python Quiz App")
 
 # --- QR Code ---
-quiz_url = "https://your-deployed-app.streamlit.app"  # replace with your deployed URL
+quiz_url = "https://sauravpatankar167281-bit.github.io/quiz/"  # replace with your deployed URL
 qr_img = qrcode.make(quiz_url)
 
 # Convert PIL image to bytes for Streamlit
